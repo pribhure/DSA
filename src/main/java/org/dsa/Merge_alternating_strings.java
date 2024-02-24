@@ -1,4 +1,4 @@
-package org.example;
+package org.dsa;
 
 /*You are given two strings word1 and word2. Merge the strings by adding letters
 in alternating order, starting with word1. If a string is longer than the other,
@@ -12,7 +12,7 @@ Explanation: The merged string will be merged as so:
 word1:  a   b   c
 word2:    p   q   r
 merged: a p b q c r*/
-public class Main {
+public class Merge_alternating_strings {
     public static void main(String[] args) {
         String word1 ="abc";
         String word2 ="defg";
